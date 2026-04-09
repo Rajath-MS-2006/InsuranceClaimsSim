@@ -1,0 +1,39 @@
+{
+  "ontology_metadata": {
+    "version": "1.0",
+    "description": "Medical terminology mapped to standard billing categories"
+  },
+  "categories": [
+    {
+      "name": "Room Rent",
+      "aliases": ["Bed Charges", "Ward Charges", "Room Charges", "ICU Charges", "Intensive Care"],
+      "description": "Daily charges for occupying a hospital room or bed."
+    },
+    {
+      "name": "Surgery",
+      "aliases": ["Operation", "Procedure", "OT Charges", "Surgeon Fee", "Anesthesia", "Appendectomy", "Cholecystectomy"],
+      "description": "Charges related to surgical procedures."
+    },
+    {
+      "name": "Medicine",
+      "aliases": ["Pharmacy", "Drugs", "Medication", "Tablets", "Syrups", "Injections", "Paracetamol", "Antibiotic", "Consumables"],
+      "description": "Cost of medicines consumed during treatment."
+    },
+    {
+      "name": "Consultation",
+      "aliases": ["Doctor Visit", "Physician Fee", "Specialist Visit", "Follow-up"],
+      "description": "Fees charged by doctors for visiting and treating the patient."
+    },
+    {
+      "name": "Diagnostics",
+      "aliases": ["Pathology", "Radiology", "X-Ray", "MRI", "CT Scan", "Blood Test", "ECG", "Lab Test", "Ultrasound"],
+      "description": "Tests required to diagnose the condition."
+    },
+    {
+      "name": "Miscellaneous",
+      "aliases": ["Registration Fee", "Admission Fee", "Diet", "Food", "Medical Records", "Admin Frame", "Gloves", "Masks"],
+      "description": "Other overhead administrative charges. Usually not covered.",
+      "default_exclusion": true
+    }
+  ]
+}
