@@ -8,6 +8,7 @@ python-multipart==0.0.9
 sqlalchemy==2.0.28
 psycopg2-binary==2.9.9
 motor==3.4.0
+tinydb==4.8.2
 
 # Document Parsing
 PyPDF2==3.0.1
@@ -19,3 +20,6 @@ python-Levenshtein==0.25.1
 
 # Utilities
 python-dotenv==1.0.1
+passlib==1.7.4
+PyJWT==2.10.1
+bcrypt==4.1.2
